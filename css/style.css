@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+span{
+    padding-right: 2%;
+}
+
+h5{
+    padding-top: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(169,168,168);
+}
+
+#main{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+#name{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(136,50,210);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 0.5px solid rgb(169,168,168);
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sub-heading{
+    color: rgb(169,168,168);
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.component{
+    color: rgb(169,168,168);
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    margin-left: 35%;
+}
+
+#my-music{
+    padding-top: 40%;
+}
